@@ -1,0 +1,62 @@
+{
+    "Target":  "CapCut.exe",
+    "Format":  "PE32+ (64-bit Windows)",
+    "DOS_Magic":  "MZ",
+    "NT_Signature":  "PE\u0000\u0000",
+    "Machine":  "AMD64 / x86_64",
+    "Subsystem":  "IMAGE_SUBSYSTEM_WINDOWS_GUI",
+    "NumberOfSections":  6,
+    "EntryPoint":  "0x4E30",
+    "ImageBase":  "0x140000000",
+    "FileSize":  90536,
+    "Sections":  [
+                     {
+                         "Name":  ".text",
+                         "VirtualSize":  "0x5A1C",
+                         "VirtualAddress":  "0x1000",
+                         "RawSize":  23552,
+                         "RawPointer":  "0x400",
+                         "Characteristics":  "0x60000020"
+                     },
+                     {
+                         "Name":  ".rdata",
+                         "VirtualSize":  "0x40FA",
+                         "VirtualAddress":  "0x7000",
+                         "RawSize":  16896,
+                         "RawPointer":  "0x6000",
+                         "Characteristics":  "0x40000040"
+                     },
+                     {
+                         "Name":  ".data",
+                         "VirtualSize":  "0xB28",
+                         "VirtualAddress":  "0xC000",
+                         "RawSize":  1024,
+                         "RawPointer":  "0xA200",
+                         "Characteristics":  "0xC0000040"
+                     },
+                     {
+                         "Name":  ".pdata",
+                         "VirtualSize":  "0x5C4",
+                         "VirtualAddress":  "0xD000",
+                         "RawSize":  1536,
+                         "RawPointer":  "0xA600",
+                         "Characteristics":  "0x40000040"
+                     },
+                     {
+                         "Name":  ".rsrc",
+                         "VirtualSize":  "0x81B0",
+                         "VirtualAddress":  "0xE000",
+                         "RawSize":  33280,
+                         "RawPointer":  "0xAC00",
+                         "Characteristics":  "0x40000040"
+                     },
+                     {
+                         "Name":  ".reloc",
+                         "VirtualSize":  "0xAC",
+                         "VirtualAddress":  "0x17000",
+                         "RawSize":  512,
+                         "RawPointer":  "0x12E00",
+                         "Characteristics":  "0x42000040"
+                     }
+                 ]
+}
